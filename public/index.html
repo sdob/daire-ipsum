@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Kerry Ipsum</title>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="style/style.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body style="padding-top: 50px;">
+
+<div class="container">
+
+  <div style="padding: 20px 15px; text-align: center">
+    <h1><span style="color: green">Dai</span><span style="color: gold">re Ip</span><span style="color: green">sum</span></h1>
+    <p class="lead">It's savage!</p>
+  </div>
+
+  <div class="container">
+    <div id="form-container">
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="input-paras" class="col-sm-2 control-label">Paragraphs</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" maxlength="2" value="3" name="paras" id="input-paras">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="input-factor" class="col-sm-2 control-label">Dairefication</label>
+          <div class="col-sm-10">
+            <input type="range" class="form-control" min="0.0" max="1" step="0.05" val="0.5" id="input-factor">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="button" class="btn btn-default" onclick="goGet()">Chrisht!</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="result">
+    </div>
+  </div>
+
+</div>
+
+<script src="scripts/dipsum.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "name": "kerryipsum",
+  "version": "0.0.0",
+  "description": "A savage lorem ipsum generator",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "random-js": "^1.0.4",
+    "range": "0.0.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-karma": "^0.12.0",
+    "grunt-open": "^0.2.3",
+    "grunt-wiredep": "^2.0.0",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-script-launcher": "^0.1.0",
+    "load-grunt-tasks": "^3.2.0",
+    "phantomjs": "^1.9.18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}

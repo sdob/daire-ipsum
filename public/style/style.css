@@ -1,0 +1,16 @@
+h1 {
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+#form-container {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#result {
+  text-align: justify;
+  padding-top: 24px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
