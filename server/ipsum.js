@@ -5,6 +5,7 @@ var range = require('range');
 var _ = require('lodash');
 
 var phrases = [
+  'Jaysus',
   'which?',
   'Chrisht, lads',
   'shower of bastards',
